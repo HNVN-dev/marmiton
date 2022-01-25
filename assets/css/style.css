@@ -1,0 +1,129 @@
+/*** General settings          ***/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  margin: 70px 0 20px 0;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  text-align: none;
+  text-align-last: none;
+  margin-left: 19px;
+}
+
+/*** Joint parameterisation ***/
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1,
+h3 {
+  color: #393c6c;
+}
+
+/*** Header ***/
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px solid #f3735f;
+}
+
+header img {
+  margin: 10px 0 0 30px;
+  width: 230px;
+}
+
+/*** Main section ***/
+
+section {
+  background-color: white;
+  margin: 60px 30px;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+/*** First 1/3, refer to general settings and joint parametisation
+if you want to custom H1 ***/
+
+.informations {
+  font-size: 12px;
+  text-align: center;
+}
+
+.preparation {
+  color: white;
+  background-color: rgba(90, 106, 161, 0.719);
+  width: 45%;
+  padding: 20px 0;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p.preparation {
+  margin-bottom: 60px;
+}
+
+/*** Custom pictures here ***/
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container img {
+  width: 275px;
+  height: 275px;
+  border-radius: 10px;
+}
+
+/*** Please check general and joint parameters to custom
+H2, H3 and ul, li.
+
+Custom footer here ***/
+
+footer {
+  color: rgba(68, 68, 68, 0.61);
+  text-align: center;
+  margin-bottom: 60px;
+}
